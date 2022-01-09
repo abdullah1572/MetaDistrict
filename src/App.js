@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Footer from './components/landing/footer/Footer.js';
 import Navbar from './components/landing/header/Navbar.js';
+import Mintingn from './components/Minting/Minting';
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
         <Navbar/>
         <Switch>
           <Route exact path='/' component={Landing} />
+          <Route exact path='/Minting' component={Mintingn} />
         </Switch>
         <Footer />
       </Router>

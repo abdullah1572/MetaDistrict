@@ -1,0 +1,43 @@
+.minting{
+    width: 100%;
+    background:  #3e049c!important;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    position: relative;
+    .leftside{
+        h3{
+            font-size: 1.3rem;
+    color: #fff;
+    letter-spacing: 3px;
+        }
+        button{
+            background:  #8703f3!important;
+            border-radius: 10px;
+            box-sizing: border-box;
+            color: #fff!important;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 20px;
+            cursor: pointer;
+            border: none;
+            height: 54px;
+            min-width: 30%;
+            font-weight: 700;
+            margin-top: 30px;
+        }
+        h1{
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 700;
+            margin-top: 20px;
+            font-family: 'lato',serif;
+            font-size: 30px!important;
+            line-height: 80px;
+            letter-spacing: 2px;
+            font-family: "lato",sans-serif;
+        }
+    }
+    .right-side{
+
+    }
+}

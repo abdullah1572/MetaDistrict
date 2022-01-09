@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './navbar.scss';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -28,7 +29,7 @@ const Navbar = () => {
                                         </li>
 
                                         <li class="nav-item">
-                                            <a class="nav-link" href="sds">Minting</a>
+                                            <Link to="/Minting" class="nav-link" href="sds">Minting</Link>
                                         </li>
                                         {/* <li class="nav-item">
                                             <a class="nav-link" href="sas">Staking</a>
