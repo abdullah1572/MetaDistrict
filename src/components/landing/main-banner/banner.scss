@@ -1,0 +1,109 @@
+
+
+.djjsdjnds{
+    position: relative;
+}
+.main-banners {
+    background-image: url("/Assets/Loot/The-8-Most-Important-Metaverse-Companies.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // opacity: 0.2;
+    position: relative;
+    background-position: 100% 100%;
+    padding: 100px 0 240px;
+    padding-top: 0px;
+    .sndsjdb{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.705);
+    }
+       .inner-content{
+           h2{
+               padding-top: 200px;
+               color: #ffffff;
+           }
+           h3{
+               color: #ffffff;
+               padding-top: 10px;
+               padding-bottom: 10px;
+               font-size: 20px;
+           }
+           p{
+               color: #d3cece;
+           }
+           .ajdjdw{
+            padding-bottom: 30px;
+           }
+           .socials{
+               display: flex;
+               justify-content: center;
+            //    align-items: center;
+           
+               .oness{
+                   margin-right: 20px;
+                border: double 1px transparent;
+                border-radius: 6px;
+                background-image: linear-gradient(#000, #000), radial-gradient(circle at top right, #9331DC,#27008B);
+                background-origin: border-box;
+                background-clip: content-box, border-box;
+                height: 45px;
+                width: 45px;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                i{
+                    color: #ebebeb;
+                    font-size: 20px;
+                }
+               }
+           }
+       }
+    }
+    .navb{
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        .hbjbz{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .ahsjab{
+                margin-right: 20px;
+            }
+            h4{
+                color: #fff;
+                font-size: 22px;
+                transition: 1s ease-in-out;
+                &:hover{
+                    background: -webkit-linear-gradient(#9331DC , #27008B);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    cursor: pointer;
+                    transition: 1s ease-in-out;
+                }
+            }
+        }
+    }
+@media (max-width: 600px) {
+   
+    .main-banner {
+        .inner-content{
+            h2{
+                font-size: 32px!important;
+            }
+        }
+    }
+}
+
+.light .main-banners {
+    // background-image: url("/Assets/Loot/The-8-Most-Important-Metaverse-Companies.jpeg");
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-position: 100% 100%;
+    // padding: 100px 0 240px;
+       
+}

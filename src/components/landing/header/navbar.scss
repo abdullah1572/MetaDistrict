@@ -1,0 +1,166 @@
+.main-navbar {
+    background: #0E0C0F;
+    border: 2px solid rgba(24, 24, 24, 0.5);
+    // .formm-mm{
+    //     .input-bbb{
+    //         border: 2px solid #353945;
+    //         box-sizing: border-box;
+    //         border-radius: 8px;
+    //         background-color: transparent;
+    //         width: 256px;
+    //         height: 40px;
+    //         color: #FCFCFD;
+    //         margin-left: 49px;
+    //         outline: none;
+    //         box-shadow: none;
+    //         padding-right: 40px;
+    //         &::placeholder{
+    //                 font-family: 'Poppins';
+    //             font-style: normal;
+    //             font-weight: normal;
+    //             font-size: 12px;
+    //             line-height: 20px;
+    //             color: #777E91;
+    //         }
+    //     }
+    //     .search-barss{
+    //         background-color: transparent;
+    //         border: none;
+    //         margin-left: -57px;
+    //         box-shadow: none;
+    //     }
+    // }
+    .navbar{
+        .navbar-brand{
+            margin-right: 96px;
+        }
+    }
+    .navbar-nav
+    {
+       
+        .nav-item.active .nav-link{
+            color: #FFFFFF;
+            &::before{
+                content: "";
+                bottom: -30px;
+                right: 0;
+                position: absolute!important;
+                width: 100%!important;
+                height: 3px!important;
+                background: linear-gradient(90.15deg, #27008B 0%, #9331DC 100%)!important;
+            }
+            
+        }
+        .nav-link{
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            color: rgba(134, 134, 134, 1);
+            margin-right: 45px;
+            position: relative;
+        }
+      
+    } 
+    .form-inline {
+        .buttoooo{
+            margin-right: 20px;
+            margin-left: 15px;
+        }
+        .nav-buttoo{
+            background: linear-gradient(97.29deg, #27008B 0%, #9331DC 105.47%);
+            border-radius: 5px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            padding: 16px 30px;
+            cursor: pointer;
+            outline: none;
+            border: none;
+         
+            transition: .5s ease-in-out;
+            color: #FFFFFF;
+            border: 1px solid #27008B;
+            &:hover{
+                background: transparent!important;
+                border: 1px solid #9331DC;
+                color: #9331DC;
+            }
+        }
+        .buttonsss{
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+        a {
+            padding: 0px 15px;
+            display: inline-block;
+        }
+    }
+}
+
+
+
+@media (max-width: 991px) {
+    .main-navbar {
+        .formm-mm{
+            .input-bbb{
+                margin-left: 0px;
+            }
+        }
+        .form-inline {
+            justify-content: center;
+        }
+    }
+    .main-navbar .navbar-nav .nav-link{
+        text-align: center;
+        margin-right: 0px;
+    }
+    .main-navbar .navbar-nav .nav-item.active .nav-link::before{
+        content: "";
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    position: absolute !important;
+    width: 14% !important;
+    margin: 0 auto;
+    height: 3px !important;
+    }
+}
+
+
+
+.buttonsss{
+    background-color: transparent;
+    border: none;
+}
+
+@media (max-width: 400px) {
+    .navbar-brand{
+        img{
+            width: 149px;
+        }
+    }
+}
+
+
+.sjndsd{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    h4{
+        font-family: 'lato'!important;
+        font-size: 30px!important;
+        color: #fff;
+        padding-left: 6px;
+        font-weight: 700;
+        span{
+            background: -webkit-linear-gradient(#9331DC , #27008B);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}
