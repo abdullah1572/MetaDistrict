@@ -53,9 +53,7 @@ const Chapter1 = () => {
                                                         <h3>Brussels</h3>
                                                         <h4>Population: <span>2095688</span></h4>
                                                     </div>
-
                                                 </div>
-
                                             </div>
                                         </div>
                                     </div>
