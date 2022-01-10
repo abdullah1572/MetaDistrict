@@ -90,7 +90,6 @@ const Navbar = () => {
                                         <li class="nav-item active">
                                             <a class="nav-link " href="sds">Home <span class="sr-only">(current)</span></a>
                                         </li>
-
                                         <li class="nav-item">
                                             <Link to="/Minting" class="nav-link" href="sds">Minting</Link>
                                         </li>

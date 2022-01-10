@@ -8,6 +8,7 @@ import { useWeb3React } from '@web3-react/core'
 import { toast } from 'react-toastify';
 import { useHistory } from 'react-router';
 import { useDispatch } from 'react-redux'
+import img4 from '../../../Assets/Loot/decentraland_cover_Twitter_large_1637063730543.webp'
 
 const Chapter2 = () => {
 
@@ -29,7 +30,7 @@ const Chapter2 = () => {
                                         <div className="row">
                                             <div className="col-lg-6 col-md-6 col-12">
                                                 <div className="cardsstart">
-                                                    <img src="\Loot\798447abb81031af7fbc9fc1184aaab1.jpeg" alt="" className="img-fluid" />
+                                                    <img src={img4} alt="" className="img-fluid shadow-lg" />
                                                     {/* <div className="downtext">
                                                         <h3>Khartoum</h3>
                                                         <h4>Population: <span>5989024</span></h4>
