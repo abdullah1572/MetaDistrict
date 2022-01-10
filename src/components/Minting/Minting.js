@@ -13,7 +13,7 @@ const Mintingn = () => {
         dots: false,
         dotsEach: false,
         loop: true,
-        autoplay: false,
+        autoplay: true,
         navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
         responsive: {
             0: {
