@@ -88,15 +88,15 @@ const Navbar = () => {
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul className="navbar-nav mr-auto">
                                         <li class="nav-item active">
-                                            <a class="nav-link " href="sds">Home <span class="sr-only">(current)</span></a>
+                                            <a class="nav-link " href="/">Home <span class="sr-only">(current)</span></a>
                                         </li>
                                         <li class="nav-item">
                                             <Link to="/Minting" class="nav-link" href="sds">Minting</Link>
                                         </li>
-                                        {/* <li class="nav-item">
-                                            <a class="nav-link" href="sas">Staking</a>
-                                        </li>
                                         <li class="nav-item">
+                                            <a class="nav-link" href="http://www.themetastate.io/">Meta State</a>
+                                        </li>
+                                        {/* <li class="nav-item">
                                             <a class="nav-link" href="sas">Dashboard</a>
                                         </li> */}
                                         {/* <li>
