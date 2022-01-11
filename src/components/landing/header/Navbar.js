@@ -94,7 +94,7 @@ const Navbar = () => {
                                             <Link to="/Minting" class="nav-link" href="sds">Minting</Link>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="http://www.themetastate.io/">Meta State</a>
+                                            <a class="nav-link" href="http://www.themetastate.io/" target="_blank">Meta State</a>
                                         </li>
                                         {/* <li class="nav-item">
                                             <a class="nav-link" href="sas">Dashboard</a>

@@ -209,7 +209,12 @@ const Mintingn = () => {
                                 <div className="row shadow-lg shshd">
                                     <div className='col-lg-6'>
                                         <div className="IMGASS ">
-                                            <img src={imageUri} alt="" className="img-fluid" />
+                                            {imageUri ?
+                                              <img src={imageUri} alt="" className="img-fluid" />
+                                              :
+                                              <img src={img2} alt="" className="img-fluid" />
+                                        }
+                                          
                                         </div>
                                     </div>
                                     <div className='col-lg-6'>
